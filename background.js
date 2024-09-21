@@ -1,18 +1,16 @@
-// background.js
-
 // Replace this with your actual API key
-const API_KEY = "<API_KEY>";
+const API_KEY = "AIzaSyCsBZPYwOIs4TRTccVUyHUbNxA7vFrfxu0";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
-    id: "GeminiEx",
-    title: "GeminiEx",
+    id: "Clarity",
+    title: "Clarity",
     contexts: ["selection"],
   });
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === "GeminiEx" && info.selectionText) {
+  if (info.menuItemId === "Clarity" && info.selectionText) {
     generateResponse(info.selectionText)
       .then((response) => {
         // Ensure content script is loaded before sending message
@@ -49,6 +47,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
       });
   }
 });
+
 async function generateResponse(text) {
   const url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 

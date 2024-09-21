@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GeminiEx",
+  "name": "Clarity",
   "version": "1.0",
-  "description": "Make it easier to use ai",
+  "description": "Clarity enhances the user experience by providing AI-generated responses directly in the web page using a stylish, non-intrusive overlay. Select text on any webpage, right-click to select 'Clarity', and view the response.",
   "permissions": ["contextMenus", "scripting"],
   "host_permissions": ["<all_urls>"],
   "background": {
@@ -15,8 +15,8 @@
     }
   ],
   "icons": {
-    "16": "icon.png",
-    "48": "icon.png",
-    "128": "icon.png"
+    "16": "icon.jpeg",
+    "48": "icon.jpeg",
+    "128": "icon.jpeg"
   }
 }
