@@ -18,5 +18,8 @@
     "16": "icon.jpeg",
     "48": "icon.jpeg",
     "128": "icon.jpeg"
+  },
+  "action": {
+    "default_title": "Clarity"
   }
 }
