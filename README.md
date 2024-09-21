@@ -29,3 +29,11 @@ const API_KEY = "<YOUR_API_KEY>";
 4. View detailed insights in a popup.
 
 ---
+
+### Screenshots
+
+<img src=Screenshots/ss-2.png/>
+
+
+
+<img src=Screenshots/SS-1.png/>
