@@ -1,5 +1,5 @@
 // Replace this with your actual API key
-const API_KEY = "AIzaSyCsBZPYwOIs4TRTccVUyHUbNxA7vFrfxu0";
+const API_KEY = "<YOUR_API_KEY>";
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
