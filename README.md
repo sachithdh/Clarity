@@ -1,4 +1,4 @@
-# Clarity - Text Analyzer
+# Clarity - AI Assistant
 
 Clarity is a Chrome extension provides instant detailed information about any selected text on a webpage. Developed using Gemini-Pro-1.5 API, the extension analyzes and returns useful insights related to the selected text.
 
